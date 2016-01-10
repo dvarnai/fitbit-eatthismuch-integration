@@ -1,2 +1,4 @@
 # fitbit-eatthismuch-integration
 An external app that syncs your EatThisMuch with your FitBit account
+
+node_modules was commited because the oauth library was modified to work with the fitbit api. To use, input your eatthismuch account in the config file, create a new fitbit app and input its clientid and secret in the config file as well. Start the app with 'node app.js'. After authorizing the app, copy the code from the end the of url into the node console. Make sure not to restart the app, as it would sync all the foods again for the day and also you would have to authorise again, could be fixed with some database code though that I don't plan to add. 

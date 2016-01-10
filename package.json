@@ -1,0 +1,15 @@
+{
+  "name": "eatthismuch-fitbit",
+  "version": "1.0.0",
+  "description": "EatThisMuch-Fitbit integrator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Varnai",
+  "license": "ISC",
+  "dependencies": {
+    "oauth": "^0.9.14",
+    "request": "^2.67.0"
+  }
+}
